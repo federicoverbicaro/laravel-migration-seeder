@@ -21,6 +21,8 @@
 
     {{-- main --}}
 
+    @yield('main')
+
 
 
     {{-- footer --}}

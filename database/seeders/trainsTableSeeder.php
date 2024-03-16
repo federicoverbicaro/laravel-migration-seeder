@@ -23,7 +23,7 @@ class trainsTableSeeder extends Seeder
             'Orario_di_arrivo' => $faker->time('H:i:s'),
             'Codice_Treno' => $faker->numberBetween(1000, 9999),
             'Numero_Carrozze' => $faker->numberBetween(1, 10),
-            'In_orario' => $faker->boolean,
+            'In_orario' => $faker->time('H:i:s'),
             'Cancellato' => $faker->boolean,
         ]);
        }

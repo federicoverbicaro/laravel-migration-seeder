@@ -14,11 +14,11 @@
        <p>Stazione di partenza: {{$element->Stazione_di_partenza}}</p>
        <p>Stazione di Arrivo: {{$element->Stazione_di_arrivo}}</p>
        <p>Orario di Partenza: {{$element->Orario_di_partenza}}</p>
-       <p>Orario di arrivo:{{$element->Orario_di_arrvio}}</p>
-       <p>Codice Treno: {{$element->Codice_treno}}</p>
+       <p>Orario di arrivo: {{$element->Orario_di_arrivo}}</p>
+       <p>Codice Treno: {{$element->Codice_Treno}}</p>
        <p>Numero Carozza: {{$element->Numero_Carrozze}}</p>
        <p>In Orario: {{$element->In_orario}}</p>
-       <p>Treno Cancellato: {{$element->Cancellato}}</p>
+       <p>Treno Cancellato: {{$element->Cancellato ? "SI" : "NO" }}</p>
     </div>
 </div>
 
